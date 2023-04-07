@@ -1,0 +1,271 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+/* main styles */
+
+.main {
+display:flex;
+flex-direction: row-reverse;
+width: 1200px;
+margin: 0 auto;
+}
+
+.main-content {
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px;
+}
+
+/* about styles */
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about-position {
+    color:#000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    margin-bottom: 50px;
+    
+}
+
+.about-name {
+    color:#000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    color:#595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 600px
+    margin-bottom: 25px;
+}
+
+
+
+/* project styles */
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.projects-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+
+.projects-item {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.project, 
+.project-link {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* work styles */
+
+.work {
+margin-bottom: 45px;
+}
+
+.work-position {
+    color:#000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.organization {
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.period {
+    color: #A8A8A8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.line {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 17px;
+}
+
+.work-list-item {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* education */
+
+.education {
+}
+
+/* 
+.title,
+.period 
+used from work */
+
+
+.education-institution {
+color: #FB6D3A;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 10px;
+}
+
+.speciality {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* sidebar styles */
+
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.sidebar-title {
+    color:#ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+
+.contact-type {
+    color:#ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.contact-link {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+    color: #ffffff;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+    color:#fb6d3a;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
