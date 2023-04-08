@@ -3,6 +3,15 @@ body {
     background-color: #F5F7FA;
 }
 
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.accent-color {
+color: #FB6D3A;
+}
+
 /* main styles */
 
 .main {
@@ -44,7 +53,7 @@ margin: 0 auto;
 }
 
 .about-description {
-    color:#595959;
+    color:#212121;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -80,22 +89,22 @@ margin: 0 auto;
     color: #000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
 .project, 
 .project-link {
-    color: #595959;
+    color: #212121;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 24px;
 }
 
-.project-link {
+/* .project-link {
     margin-left: 10px;
-}
+} */
 
 .project-bracket {
     color: #000000;
@@ -103,6 +112,11 @@ margin: 0 auto;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
+}
+
+.project-items {
+    margin-left: 10px;
+    font-size: 16px;
 }
 
 /* work styles */
@@ -129,7 +143,7 @@ margin-bottom: 45px;
 }
 
 .period {
-    color: #A8A8A8;
+    color: #4d4d4d;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -151,10 +165,10 @@ margin-bottom: 45px;
 }
 
 .work-list-item {
-    color: #595959;
+    color: #2c2c2c;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -183,7 +197,7 @@ margin-bottom: 10px;
     color: #000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     margin-bottom: 10px;
 }
@@ -196,7 +210,7 @@ margin-bottom: 10px;
 .sidebar {
     background-color: #1E2939;
     padding-top: 40px;
-    width: 370px;
+    width: 350px;
 }
 
 .photo {
@@ -210,18 +224,20 @@ margin-bottom: 10px;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .contacts,
 .tech-skills,
 .soft-skills {
     margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
-.contacts {
+/* .contacts {
     margin-bottom: 50px;
-}
+} */
 
 
 .contact-type {
@@ -242,10 +258,10 @@ margin-bottom: 10px;
     opacity: 0.5;
 }
 
-
+/* 
 .tech-skills {
     margin-bottom: 45px;
-}
+} */
 
 .tech-skills-list,
 .soft-skills-list {
@@ -264,8 +280,10 @@ margin-bottom: 10px;
     color: #ffffff;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
-
+.accent-color {
+    color: #FB6D3A;
+    }
