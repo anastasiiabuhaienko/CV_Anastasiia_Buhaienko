@@ -30,7 +30,7 @@ margin: 0 auto;
 /* about styles */
 
 .about {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .about-position {
@@ -67,7 +67,7 @@ margin: 0 auto;
 /* project styles */
 
 .projects {
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .title {
@@ -76,7 +76,7 @@ margin: 0 auto;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .projects-list {
@@ -110,26 +110,26 @@ margin: 0 auto;
     color: #000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 24px;
 }
 
 .project-items {
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* work styles */
 
 .work {
-margin-bottom: 45px;
+margin-bottom: 55px;
 }
 
 .work-position {
     color:#000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
     margin-bottom: 10px;
 }
@@ -138,7 +138,7 @@ margin-bottom: 45px;
     color: #FB6D3A;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 20px;
 }
 
@@ -146,7 +146,7 @@ margin-bottom: 45px;
     color: #4d4d4d;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 15px;
     margin-bottom: 10px;
 }
@@ -162,14 +162,14 @@ margin-bottom: 45px;
 .work-list {
     padding: 0;
     margin-left: 17px;
-    padding-left:15px;
+    padding-left:10px;
 }
 
 .work-list-item {
     color: #2c2c2c;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
 }
 
@@ -189,7 +189,7 @@ used from work */
 color: #FB6D3A;
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
+font-size: 17px;
 line-height: 20px;
 margin-bottom: 10px;
 }
@@ -198,7 +198,7 @@ margin-bottom: 10px;
     color: #000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 17px;
     margin-bottom: 10px;
 }
@@ -236,6 +236,9 @@ margin-bottom: 10px;
     margin-top: 20px;
 }
 
+.style-underline {
+    text-decoration: none;
+}
 /* .contacts {
     margin-bottom: 50px;
 } */
@@ -254,7 +257,7 @@ margin-bottom: 10px;
     color: #ffffff;
     font-style: normal;
     font-weight: 400; 
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     opacity: 0.5;
 }
@@ -282,7 +285,7 @@ margin-bottom: 10px;
     color: #ffffff;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
 }
 
