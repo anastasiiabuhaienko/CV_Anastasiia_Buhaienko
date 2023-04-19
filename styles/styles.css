@@ -3,10 +3,29 @@ body {
     background-color: #ffffff;
 }
 
+/* Скидывание родных отступов у h, ul, p  */
 .list {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
+
+
+
+.link {
+    margin: 0;
+    text-decoration: none;
+}
+
+
+/* Избавляемся от родного отступа у картинки  */
+img {
+    display: block;
+    /* max-width: 100%; */
+    height: auto;
+}
+
+
 
 .accent-color {
 color: #FB6D3A;
@@ -29,17 +48,14 @@ margin: 0 auto;
 
 /* about styles */
 
-.about {
-    margin-bottom: 60px;
-}
 
 .about-position {
     color:#000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 17px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 1.17;
+    margin-bottom: 45px;
     
 }
 
@@ -47,8 +63,8 @@ margin: 0 auto;
     color:#000000;
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 32px;
+    line-height: 1.19;
     margin-bottom: 25px;
 }
 
@@ -66,9 +82,6 @@ margin: 0 auto;
 
 /* project styles */
 
-.projects {
-    margin-bottom: 55px;
-}
 
 .title {
     color: #000000;
@@ -121,8 +134,10 @@ margin: 0 auto;
 
 /* work styles */
 
-.work {
-margin-bottom: 55px;
+.work,
+.projects,
+.about {
+margin-bottom: 40px;
 }
 
 .work-position {
@@ -215,7 +230,7 @@ margin-bottom: 10px;
 }
 
 .photo {
-    width: 370px;
+    width: 340px;
     margin-bottom: 40px;
 }
 
@@ -231,7 +246,7 @@ margin-bottom: 10px;
 .contacts,
 .tech-skills,
 .soft-skills {
-    margin-left: 40px;
+    margin-left: 30px;
     margin-bottom: 50px;
     margin-top: 20px;
 }
